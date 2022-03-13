@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamepad_Emulator_V2", "Gamepad_Emulator_V2\Gamepad_Emulator_V2.csproj", "{8F426819-C12E-4D88-855A-F33EC9F82E76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatsonWebSocket_v1", "WatsonWebSocket_v1\WatsonWebSocket_v1.csproj", "{4FD20D5E-A93F-487A-B861-73C767224419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketListener_vtortola", "WebSocketListener_vtortola\WebSocketListener_vtortola.csproj", "{7187B88F-7F21-4456-A46D-A5534216E49C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F426819-C12E-4D88-855A-F33EC9F82E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F426819-C12E-4D88-855A-F33EC9F82E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F426819-C12E-4D88-855A-F33EC9F82E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F426819-C12E-4D88-855A-F33EC9F82E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD20D5E-A93F-487A-B861-73C767224419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD20D5E-A93F-487A-B861-73C767224419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD20D5E-A93F-487A-B861-73C767224419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD20D5E-A93F-487A-B861-73C767224419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7187B88F-7F21-4456-A46D-A5534216E49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7187B88F-7F21-4456-A46D-A5534216E49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7187B88F-7F21-4456-A46D-A5534216E49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7187B88F-7F21-4456-A46D-A5534216E49C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13183D97-6195-48CA-8520-2AF24C1E660F}
+	EndGlobalSection
+EndGlobal
