@@ -67,7 +67,14 @@ namespace WebSocketListener_vtortola.GamePad
             JsonHelper? jsonHelper = JsonSerializer.Deserialize<JsonHelper>(json);
             Console.WriteLine(jsonHelper?.ButtonA);
 
+
+            GetController(guid).SetButtonState(Xbox360Button.X, jsonHelper.ButtonX);
+            GetController(guid).SetButtonState(Xbox360Button.Left, jsonHelper.ButtonLeft);
+
         }
+
+
+        
 
 
     }
